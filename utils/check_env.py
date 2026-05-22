@@ -1,13 +1,3 @@
-"""
-verificar_gpu.py
-=================
-Execute este script após criar o ambiente para confirmar
-que o PyTorch está enxergando a GPU corretamente.
-
-Uso:
-    python verificar_gpu.py
-"""
-
 import sys
 import torch
 import platform
@@ -21,7 +11,7 @@ print(f"\n  Sistema     : {platform.system()} {platform.release()}")
 print(f"  Python      : {sys.version.split()[0]}")
 print(f"  PyTorch     : {torch.__version__}")
 
-# ── GPU ───────────────────────────────────────────────
+# GPU
 print("\n" + "─" * 55)
 print("  STATUS DA GPU")
 print("─" * 55)
@@ -58,7 +48,7 @@ else:
     print("  Verifique se os drivers e o PyTorch correto estão instalados.")
     device = torch.device("cpu")
 
-# ── Teste de operação na GPU ──────────────────────────
+# Teste de operação na GPU
 print("\n" + "─" * 55)
 print("  TESTE DE OPERAÇÃO")
 print("─" * 55)
@@ -73,7 +63,7 @@ try:
 except Exception as e:
     print(f"\n  [ERRO] Falha ao operar na GPU: {e}")
 
-# ── Bibliotecas do pipeline ───────────────────────────
+# Bibliotecas do pipeline
 print("\n" + "─" * 55)
 print("  BIBLIOTECAS DO PIPELINE")
 print("─" * 55)
