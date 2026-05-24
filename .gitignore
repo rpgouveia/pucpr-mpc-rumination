@@ -1,17 +1,16 @@
-# Environments and Python cache
+# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 .env
 
-# Data and models
+# Dataset (arquivos grandes — baixar via Zenodo)
 dataset/
-processed_data/
-models/
-results/
-*.npz
+
+# Pesos dos modelos (arquivos grandes — não versionar)
+results/checkpoints/
 *.pt
-*.csv
+*.npz
 
 # Jupyter
 .ipynb_checkpoints/
