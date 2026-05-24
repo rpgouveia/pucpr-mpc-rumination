@@ -102,11 +102,17 @@ O dataset não está incluído neste repositório devido ao seu tamanho. Para re
 
 ## Execução
 
-Os experimentos são conduzidos via Jupyter Lab. Com o ambiente ativado, inicie o servidor:
+Os experimentos são conduzidos via notebooks Jupyter. Com o ambiente conda ativado, escolha uma das opções abaixo:
+
+### Jupyter Lab (navegador)
 
 ```bash
 jupyter lab
 ```
+
+### VS Code
+
+Abra a pasta do projeto no VS Code, instale a extensão **Jupyter** (Microsoft) caso ainda não esteja instalada, e selecione o kernel `rumination` no canto superior direito do notebook antes de executar.
 
 Execute os notebooks na seguinte ordem:
 
