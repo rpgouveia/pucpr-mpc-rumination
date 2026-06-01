@@ -152,7 +152,12 @@ Relatório completo: `docs/relatorio_modelo1.md`
 
 ### Modelo 2 — Random Forest
 
-Em desenvolvimento. Resultados serão adicionados após a conclusão do `notebooks/model2.ipynb`.
+| Métrica | Resultado | Referência (artigo) |
+|---------|-----------|---------------------|
+| F1 médio (validação cruzada) | 0.7766 ± 0.0209 | 0,82 +/- ~0,03 |
+| F1 macro (teste) | 0,7512 | 0,82 |
+| F1 weighted (teste) | 0,8050 | 0,82 |
+| Accuracy (teste) | 0,7636 | ~0,82 |
 
 ---
 
